@@ -1,0 +1,77 @@
+/* ------------------------
+    Table of Contents 
+    7. Testimonials
+/* ------------------------
+    Testimonials
+------------------------*/
+.testimonial{position: relative; padding: 30px 30px 30px 0;}
+.testimonial.style-1{padding: 30px 0 30px 30px;}
+.testimonial.style-1:before{content: ""; background: #2575fc; border-top-left-radius: 7px; border-bottom-left-radius: 7px; width: 20%; height: 100%; position: absolute; left: 0; top: 0;}
+.testimonial-content{position: relative; font-size: 18px; line-height: 28px; font-weight: 600; margin-bottom: 0;}
+.testimonial.style-1 .testimonial-content{padding: 30px; margin-right: 50px; border-radius: 7px; background: #ffffff; overflow: hidden;}
+.testimonial-content p{font-size: 18px; line-height: 34px; font-weight: 500; margin-bottom: 0; color: #1c1d3e; position: relative;}
+.testimonial.style-1 .testimonial-content p{position: relative; z-index: 9;}
+.testimonial.style-1 .testimonial-caption{ z-index: 9; position: relative;}
+.testimonial .testimonial-caption label{margin-bottom: 0; font-weight: 500; color: #1c1d3e; display: block;}
+.testimonial .testimonial-caption h5{color: #2575fc; font-weight: bold; display: inline-block; margin-bottom:10px;}
+.testimonial .testimonial-quote {color:#ffe2e1; z-index: -1; font-size: 200px; line-height: 200px; transform: rotate(-90deg); position: absolute; top: 0; right: 0;}
+.testimonial.style-1 .testimonial-quote{z-index: 9;}
+.grey-bg .testimonial-content p{color: #1c1d3e}
+
+.testimonial-caption{position: relative; padding-top: 20px; margin-top: 20px; display: inline-block;}
+.testimonial-caption:before, .testimonial-caption:after{content: ''; position: absolute; z-index: 1; height: 3px; border-radius: 2px; top: 0;}
+.testimonial-caption:before{background: #005bea; width: 100px; left:0;}
+.testimonial-caption:after{background: #2575fc; width: 20px; left:110px;}
+
+.testimonial-carousel .controls{padding:0;  margin:0; white-space: nowrap; text-align: center; position: relative;}
+.testimonial-carousel .controls li {position: relative; margin: 0 2%; border-radius: 50%; width: 46%; box-shadow:0 30px 70px rgba(0,0,0,.2);}
+.testimonial-carousel .controls li a{position: relative; z-index: 9; overflow: hidden; border-radius: 50%; display: inline-block; width: 100%; height: 100%;}
+.testimonial-carousel .controls li:last-child {float: none; margin: 0 auto;}
+.testimonial-carousel .controls li img{width: 100%; height: 100%;}
+
+.testimonial-carousel .controls li.active:after,
+.testimonial-carousel .controls li.active:before,
+.testimonial.style-2 .testimonial-img:before,
+.testimonial.style-2 .testimonial-img:after {content: ''; border: 10px solid #2575fc; width: 100%; height: 100%; -webkit-border-radius: 100%; border-radius: 100%;
+ position: absolute; left: 0%; top: 0%; opacity: 1; -webkit-animation: 2s videomodule-anim linear infinite; animation: 2s videomodule-anim linear infinite; }
+.testimonial-carousel .controls li.active:before {-webkit-animation-delay: .5s; animation-delay: .5s; }
+
+.testimonial.style-2{text-align: center; padding: 30px 30px 70px;}
+.testimonial.style-2:before{display: none;}
+.testimonial-img{border-radius: 50%; position: relative; display: inline-block;}
+.testimonial-img img{border-radius: 50%; position: relative; z-index: 9; width: 100%;}
+.testimonial.style-2 .testimonial-img{width: 35%;}
+.testimonial.style-2 .testimonial-content {background: #ffffff; padding: 30px; border-radius: 7px; margin-top: 30px;}
+
+.testimonial-2 .carousel-inner{z-index: 9;}
+.testimonial-carousel.testimonial-2 .controls{position: absolute; height: 100%; width: 100%; bottom: 0;}
+.testimonial-carousel.testimonial-2 .controls li {animation-name: blinkblink; animation-duration: 5000ms; transform-origin: 70% 70%; animation-iteration-count: infinite; animation-timing-function: linear; position: absolute; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15); border-radius: 100%; z-index: 99; opacity: 0.6; width: 130px; height: 130px; margin: inherit; float: none;}
+.testimonial-carousel.testimonial-2 .controls li.active{opacity: 1; animation: inherit;}
+.testimonial-2 .controls li:nth-child(1){left: 0; bottom: 10%;}
+.testimonial-2 .controls li:nth-child(2){left: 5%; bottom: 55%;}
+.testimonial-2 .controls li:nth-child(3){right: 5%; bottom: 55%;}
+.testimonial-2 .controls li:nth-child(4) {right: 0; bottom: 10%;}
+
+.testimonial.style-3, .testimonial.style-5 {display: flex; align-items: center;}
+.testimonial.style-3 .testimonial-img,
+.testimonial.style-5 .testimonial-img {border-radius: 20% 30% 80% 0; display: inline-block; overflow: hidden; position: relative; margin-right: 30px; width: 100%;}
+.testimonial.style-3 .testimonial-img img,
+.testimonial.style-5 .testimonial-img img{border-radius: 0;}
+.testimonial.style-3 .testimonial-quote {color: #ffe2e1; left: 0; right: inherit; transform: rotate(-180deg);}
+.testimonial-carousel.testimonial-3 .controls{position: absolute; height: 100%; width: 100%; bottom: 0;}
+.testimonial-carousel.testimonial-3 .controls li{ position: absolute; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15); border-radius: 100%; z-index: 99; opacity: 0.6; width: 130px; height: 130px; margin: inherit; float: none; width: 80px; height: 80px; animation: inherit;}
+.testimonial-3 .controls li:nth-child(1){left: 0; bottom: 0%;}
+.testimonial-3 .controls li:nth-child(2){left: 3%; bottom: 30%;}
+.testimonial-3 .controls li:nth-child(3){left: 0; bottom: 60%;}
+.testimonial-carousel.testimonial-3 .controls li.active{opacity: 1;}
+
+.testimonial.style-4{background: #ffe2e1; padding: 30px; border-radius: 7px}
+.testimonial.style-4 .testimonial-img{width: 100px; height: 100px; display: inline-block; margin-right: 15px;}
+.testimonial.style-4 .testimonial-content p{font-size: 15px; margin-bottom: 30px;}
+.testimonial.style-4 .testimonial-caption {display: inline-block; vertical-align: middle;}
+.testimonial.style-4:after{content: ""; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: #2575fc; border-radius:30px; transform:rotate(-7deg); z-index: -2;}
+
+.testimonial.style-5{margin: 0 30px;}
+.testimonial.style-5 .testimonial-img{margin-right: 0;}
+.testimonial.style-5 .testimonial-content {background: #fff; margin-left: -150px; border-radius: 7px; padding: 50px 50px 50px 200px;}
+.testimonial.style-5 .testimonial-quote{position: inherit; top: inherit; right: inherit; z-index: inherit; transform: inherit; line-height: 150px;}
